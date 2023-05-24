@@ -2,4 +2,49 @@
 # 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
 ################################################################################
 
-/SemanticKernelDemo/obj
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.lib
+*.sbr
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.VC.opendb
+
+# 忽略ReSharper生成的文件和目录
+_ReSharper*/
+*.ReSharper.user
+
+# 忽略NuGet包
+packages/
+
+# 忽略其他临时文件和目录
+[Tt]emp/
+*.tmp
+*.swp
+*~$
+*.bak
+*.cache
+*.log
+*.orig
+*.pidb
+*.userprefs
+*.crdownload
+*.vs
