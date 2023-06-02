@@ -48,3 +48,4 @@ packages/
 *.userprefs
 *.crdownload
 *.vs
+SemanticKernelDemo/config/settings.json
